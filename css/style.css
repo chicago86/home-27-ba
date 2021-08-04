@@ -1,0 +1,74 @@
+body {
+  background: url(../img/816831.jpg) 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+.ba-container {
+  max-width: 1200px;
+  padding: 50px 20px;
+}
+
+.ba-play__list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background: #fff;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 40%);
+  border-radius: 10px;
+}
+
+.ba-title {
+  text-align: center;
+  font-weight: 500;
+  margin: 0 0 25px;
+  padding-top: 20px;
+}
+
+/* ul--styles */
+.ba-list__item {
+  border-top: 1px solid #a4a3a9;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ba-list {
+  padding-right: 40px;
+}
+.ba-list__first {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  color: #a4a3a9;
+}
+.ba-time {
+  padding: 0 10px 0 0;
+  border-right: 1px solid black;
+}
+.ba-author {
+  padding-left: 10px;
+}
+
+.ba-song::first-letter,
+.ba-author::first-letter {
+  text-transform: uppercase;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
